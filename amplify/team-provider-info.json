@@ -10,6 +10,11 @@
       "StackName": "amplify-comicdb-dev-00738",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:117880326767:stack/amplify-comicdb-dev-00738/3f1628f0-64f7-11ed-b038-0e0147083729",
       "AmplifyAppId": "d2uvsrzjw1tivj"
+    },
+    "categories": {
+      "auth": {
+        "comicdbb6c637e6": {}
+      }
     }
   }
 }
