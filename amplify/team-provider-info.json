@@ -1,15 +1,15 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-comicdb-dev-160737-authRole",
-      "UnauthRoleArn": "arn:aws:iam::117880326767:role/amplify-comicdb-dev-160737-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::117880326767:role/amplify-comicdb-dev-160737-authRole",
+      "AuthRoleName": "amplify-comicdb-dev-00738-authRole",
+      "UnauthRoleArn": "arn:aws:iam::117880326767:role/amplify-comicdb-dev-00738-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::117880326767:role/amplify-comicdb-dev-00738-authRole",
       "Region": "ap-northeast-1",
-      "DeploymentBucketName": "amplify-comicdb-dev-160737-deployment",
-      "UnauthRoleName": "amplify-comicdb-dev-160737-unauthRole",
-      "StackName": "amplify-comicdb-dev-160737",
-      "StackId": "arn:aws:cloudformation:ap-northeast-1:117880326767:stack/amplify-comicdb-dev-160737/306e0180-64b4-11ed-a180-06f0199aeef5",
-      "AmplifyAppId": "d2rceqll9ol0yd"
+      "DeploymentBucketName": "amplify-comicdb-dev-00738-deployment",
+      "UnauthRoleName": "amplify-comicdb-dev-00738-unauthRole",
+      "StackName": "amplify-comicdb-dev-00738",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:117880326767:stack/amplify-comicdb-dev-00738/3f1628f0-64f7-11ed-b038-0e0147083729",
+      "AmplifyAppId": "d2uvsrzjw1tivj"
     }
   }
 }
