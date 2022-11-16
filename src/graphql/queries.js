@@ -1,9 +1,9 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const getTodo = /* GraphQL */ `
-  query GetTodo($id: ID!) {
-    getTodo(id: $id) {
+export const getComicdbUserTable = /* GraphQL */ `
+  query GetComicdbUserTable($id: ID!) {
+    getComicdbUserTable(id: $id) {
       id
       name
       description
@@ -12,13 +12,17 @@ export const getTodo = /* GraphQL */ `
     }
   }
 `;
-export const listTodos = /* GraphQL */ `
-  query ListTodos(
-    $filter: ModelTodoFilterInput
+export const listComicdbUserTables = /* GraphQL */ `
+  query ListComicdbUserTables(
+    $filter: ModelComicdbUserTableFilterInput
     $limit: Int
     $nextToken: String
   ) {
-    listTodos(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    listComicdbUserTables(
+      filter: $filter
+      limit: $limit
+      nextToken: $nextToken
+    ) {
       items {
         id
         name

@@ -17,6 +17,13 @@
       },
       "api": {
         "comicdb": {}
+      },
+      "function": {
+        "comicdbUserFunction": {
+          "deploymentBucketName": "amplify-comicdb-dev-00738-deployment",
+          "s3Key": "amplify-builds/comicdbUserFunction-31654c3767352f664270-build.zip",
+          "apiComicdbUsertableName": "cdDevUserTable-vp2ff7zzjbduxi4pisqe6ajuxa-dev"
+        }
       }
     }
   }

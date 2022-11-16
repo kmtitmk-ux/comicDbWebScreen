@@ -1,9 +1,11 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const onCreateTodo = /* GraphQL */ `
-  subscription OnCreateTodo($filter: ModelSubscriptionTodoFilterInput) {
-    onCreateTodo(filter: $filter) {
+export const onCreateComicdbUserTable = /* GraphQL */ `
+  subscription OnCreateComicdbUserTable(
+    $filter: ModelSubscriptionComicdbUserTableFilterInput
+  ) {
+    onCreateComicdbUserTable(filter: $filter) {
       id
       name
       description
@@ -12,9 +14,11 @@ export const onCreateTodo = /* GraphQL */ `
     }
   }
 `;
-export const onUpdateTodo = /* GraphQL */ `
-  subscription OnUpdateTodo($filter: ModelSubscriptionTodoFilterInput) {
-    onUpdateTodo(filter: $filter) {
+export const onUpdateComicdbUserTable = /* GraphQL */ `
+  subscription OnUpdateComicdbUserTable(
+    $filter: ModelSubscriptionComicdbUserTableFilterInput
+  ) {
+    onUpdateComicdbUserTable(filter: $filter) {
       id
       name
       description
@@ -23,9 +27,11 @@ export const onUpdateTodo = /* GraphQL */ `
     }
   }
 `;
-export const onDeleteTodo = /* GraphQL */ `
-  subscription OnDeleteTodo($filter: ModelSubscriptionTodoFilterInput) {
-    onDeleteTodo(filter: $filter) {
+export const onDeleteComicdbUserTable = /* GraphQL */ `
+  subscription OnDeleteComicdbUserTable(
+    $filter: ModelSubscriptionComicdbUserTableFilterInput
+  ) {
+    onDeleteComicdbUserTable(filter: $filter) {
       id
       name
       description

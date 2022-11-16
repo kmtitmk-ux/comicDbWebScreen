@@ -13,7 +13,7 @@ import { store } from 'store';
 import 'assets/scss/style.scss';
 import config from './config';
 
-import { Amplify, Auth } from 'aws-amplify';
+import { Amplify } from 'aws-amplify';
 import awsconfig from './aws-exports';
 Amplify.configure(awsconfig);
 

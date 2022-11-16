@@ -1,12 +1,12 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createTodo = /* GraphQL */ `
-  mutation CreateTodo(
-    $input: CreateTodoInput!
-    $condition: ModelTodoConditionInput
+export const createComicdbUserTable = /* GraphQL */ `
+  mutation CreateComicdbUserTable(
+    $input: CreateComicdbUserTableInput!
+    $condition: ModelComicdbUserTableConditionInput
   ) {
-    createTodo(input: $input, condition: $condition) {
+    createComicdbUserTable(input: $input, condition: $condition) {
       id
       name
       description
@@ -15,12 +15,12 @@ export const createTodo = /* GraphQL */ `
     }
   }
 `;
-export const updateTodo = /* GraphQL */ `
-  mutation UpdateTodo(
-    $input: UpdateTodoInput!
-    $condition: ModelTodoConditionInput
+export const updateComicdbUserTable = /* GraphQL */ `
+  mutation UpdateComicdbUserTable(
+    $input: UpdateComicdbUserTableInput!
+    $condition: ModelComicdbUserTableConditionInput
   ) {
-    updateTodo(input: $input, condition: $condition) {
+    updateComicdbUserTable(input: $input, condition: $condition) {
       id
       name
       description
@@ -29,12 +29,12 @@ export const updateTodo = /* GraphQL */ `
     }
   }
 `;
-export const deleteTodo = /* GraphQL */ `
-  mutation DeleteTodo(
-    $input: DeleteTodoInput!
-    $condition: ModelTodoConditionInput
+export const deleteComicdbUserTable = /* GraphQL */ `
+  mutation DeleteComicdbUserTable(
+    $input: DeleteComicdbUserTableInput!
+    $condition: ModelComicdbUserTableConditionInput
   ) {
-    deleteTodo(input: $input, condition: $condition) {
+    deleteComicdbUserTable(input: $input, condition: $condition) {
       id
       name
       description

@@ -39,6 +39,8 @@ import User1 from 'assets/images/users/user-round.svg';
 // assets
 import { IconLogout, IconSearch, IconSettings, IconUser } from '@tabler/icons';
 
+import { Auth } from 'aws-amplify';
+
 // ==============================|| PROFILE MENU ||============================== //
 
 const ProfileSection = () => {
@@ -56,6 +58,7 @@ const ProfileSection = () => {
      * */
     const anchorRef = useRef(null);
     const handleLogout = async () => {
+        await Auth.signOut();
         console.log('Logout');
     };
 

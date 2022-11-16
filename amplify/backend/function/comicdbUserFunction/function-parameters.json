@@ -1,0 +1,10 @@
+{
+  "permissions": {},
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "apiComicdbUsertableName",
+      "environmentVariableName": "API_COMICDB_USERTABLE_NAME"
+    }
+  ]
+}
