@@ -12,6 +12,9 @@ import themes from 'themes';
 // project imports
 import NavigationScroll from 'layout/NavigationScroll';
 
+import { withAuthenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
+
 // ==============================|| APP ||============================== //
 
 const App = () => {
@@ -29,4 +32,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default withAuthenticator(App);
